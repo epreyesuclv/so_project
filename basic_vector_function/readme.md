@@ -7,7 +7,7 @@ Crear la biblioteca libvector del fichero objeto<br>
 ` ar -rv libvector.a op.o`  
 
 Compilar el programa<br>
-`gcc -static -o util main.c -I. -L. -lvector ` 
+`gcc -static -o util main.c -I. -L. -lvector ` <br>
 Ejecutar <br>
 ` ./util`                    
  
